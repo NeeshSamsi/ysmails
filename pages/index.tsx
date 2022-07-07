@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="container mx-auto">
+      <main className="container mx-auto pt-24">
         <h2 className="text-3xl font-semibold mb-12">Bulk Emails Form</h2>
 
         <form className="mb-12">
