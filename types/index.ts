@@ -31,6 +31,13 @@ export interface EmailFormData {
   recepients: string
 }
 
+export interface SendEmailData {
+  subject: string
+  message: string
+  messageType: MessageType
+  recepients: Recepient[]
+}
+
 export enum MessageType {
   HTML = "HTML",
   TEXT = "Text",
